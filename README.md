@@ -31,11 +31,11 @@ python manage.py test
 6. Envie o código para o heroku
 
 '''console
-
 heroku create minhainstacia
 heroku config:push
 heroku config:set SECRET_KEY='python contrib/secret_gen.py'
 heroku config:set DEBUG=False
-# configuro o email
-git push heroku master --force
 '''
+
+# Configuro o Email
+git push heroku master --force
